@@ -33,7 +33,7 @@ def calc():
                except ValueError:
                     print("invalid input! please enter numbers only" )
           if choice=='1':
-               print(f"Result:{add(num1,num2)}")
+               print(f"Result is :{add(num1,num2)}")
           elif choice=='2':
                print(f"Result:{subtract(num1,num2)}")
           elif choice=='3':
